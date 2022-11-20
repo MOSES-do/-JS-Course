@@ -47,7 +47,21 @@ const poll = {
         );
         console.log(answer);
 
+        //Update answer
+        typeof answer === 'number' && answer < this.answers.length && this.answers[answer]++;
+
+        this.displayResults();
+        this.displayResults('string');
+    },
+
+    displayResults(type = 'array') {
+        if (type === 'array') {
+            console.log(this.answers);
+        } else if (type === 'string') {
+            //Poll results are 1, 2, 3, 4
+            console.log(`Poll results are ${this.answers.join(', ')}`)
+        }
     }
 }
 
-// poll.registerNewAnswer();
+document.querySelector('.poll').addEventListener('click', poll.registerNewAnswer.bind(poll));

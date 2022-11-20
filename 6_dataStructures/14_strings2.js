@@ -32,7 +32,7 @@ for (const flight of flights.split('+')) {
 //     console.log(`${output.padStart(65, ' ')} `);
 // }
 
-https://youtu.be/MqqDc2BIpxs
-https://youtu.be/EpqSbKYxd9Y - Sarah MicMillan
-Evan craft - Mercy in a manger
-Katy Nicole - What a King
+// https://youtu.be/MqqDc2BIpxs
+// https://youtu.be/EpqSbKYxd9Y - Sarah MicMillan
+// Evan craft - Mercy in a manger
+// Katy Nicole - What a King
