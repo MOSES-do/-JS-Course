@@ -10,6 +10,7 @@ console.log('B737'.length);
 console.log(airline.indexOf('r'));
 console.log(airline.lastIndexOf('r'));
 console.log(airline.indexOf('portugal'));
+console.log('jonas'.charAt(0));
 
 //String are primitives and as such are immutable results of their methods for further usage must be stored in a variable
 
